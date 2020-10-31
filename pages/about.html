@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rólam</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a class="logo" href="/pages/index.html">
+            Rólam
+        </a>
+
+        <!-- nav -->
+        <nav id="mainMenu" class="links">
+            <a href="/pages/index.html">Home</a> |
+            <a href="/pages/works.html">Works</a> |
+            <a href="/pages/gallery.html">Gallery</a> |
+            <a href="/pages/about.html">About</a>
+        </nav>
+
+    </header>
+    <nav id="menu">
+        <ul class="links">
+            <li>
+                <a href="/pages/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/pages/works.html">Works</a>
+            </li>
+            <li>
+                <a href="/pages/gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="/pages/about.html">About</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Rólam</h1>
+            <article>
+                <img class="left" id="aboutImg" src="/images/aboutimg.jpg" alt="Kópis-Horváth Anikó">
+                <p class="introp">Rendelkezem egy Bsc diplomával (informatikus-könyvtáros) és egy Msc diplomával(kommunikáció- és médiatudomány).
+                    Alapszakon bíztam benne, hogy adnak informatikai alaptudást is, de sajnos inkább a humán tanulmányokon volt a hangsúly. Bátyám programozó és ő egyfajta példakép nekem, így a munkahelyeire is mindig követtem, igaz "csak" Recruiterként.
+                    Régóta elterveztem, hogy ha itthon leszek GYES-en, akkor megpróbálkozom végre a programozással, ezért vagyok most itt :)
+                </p>
+                <article class="clearfix">
+                    <div class="left about">
+                        <p>Eddigi ismereteim:</p>
+                        <ul>
+                            <li>HTML5,CCS3,Javascript</li>
+                            <li>Interjúztatás</li>
+                            <li>Agilis módszertan</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="clearfix">
+                    <div class="left about">
+                        <p>Nyelvismeret:</p>
+                        <ol style="list-style-type:upper-roman">
+                            <li>Német szóbeli középfokú nyelvvizsga,</li>
+                            <li>Angol C típusú alapfokú nyelvvizsga.</li>
+                        </ol>
+                    </div>
+                    <div class="about">
+                        <p>Hobbi:</p>
+                        <ul>
+                            <li>zene</li>
+                            <li>teniszezés</li>
+                            <li>programozás</li>
+                        </ul>
+                    </div>
+                </article>
+        </section>
+        <section>
+            <p>Ha üzenetet szeretnél küldeni Nekem, itt tedd:</p>
+            <form>
+                <div>
+                    <label for="name">Név</label></br>
+                    <input type="text" id="name" minlength="5" placeholder="Név" required>
+                </div>
+                <div>
+                    <label for="email">Email cím</label></br>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+
+                <div>
+                    <label for="message">Üzenet</label></br>
+                    <textarea id="message" rows="10" minlength="20" required></textarea>
+                </div>
+                <button type="submit">Küldés</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#top">
+            <button class="btn">Ugrás az oldal tetejére</button>
+        </a>
+    </footer>
+</body>
+
+</html>
