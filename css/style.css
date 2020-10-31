@@ -87,6 +87,60 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
+  #gallery img {
+    width: 80vw;
+    margin: 1rem auto;
+    box-shadow: 7px 7px 10px 10px rgba(1, 73, 1, 0.5);
+}
+
+@media screen and (min-width: 600px) {
+    #gallery img {
+        width: 27vw;
+        margin: 1rem;
+    }
+}
+
+#aboutImg {
+  width: 40vw;
+}
+
+@media screen and (min-width: 600px) {
+  #aboutImg {
+      width: 18vw;
+  }
+}
+
+li {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.about {
+  display: block;    
+}
+
+@media screen and (min-width: 600px) {
+  .about {
+      display: inline-block;
+      width: 40%;
+  }    
+}
+
+input {
+  height: 2rem;
+  border: 1px solid green;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  border: 1px solid green;
+}
+
+label {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
 /* Typography */
 html {
   font-size: 13pt; }
@@ -2025,10 +2079,10 @@ ul.icons {
   #banner.small {
     height: 30vh !important;
     min-height: 30vh; }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 480px) {
     #banner video {
       display: none; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 480px) {
     #banner {
       height: auto !important;
       min-height: 0;
@@ -2201,7 +2255,7 @@ ul.icons {
   #cta .inner {
     position: relative;
     z-index: 3; }
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 480px) {
     #cta {
       background-attachment: scroll; } }
 
@@ -2363,10 +2417,10 @@ ul.icons {
     opacity: 0.5;
     padding: 2rem 0;
     text-align: center; }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 480px) {
     #footer {
       padding: 4rem 0 2rem 0 ; } }
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 480px) {
     #footer .content {
       -moz-flex-wrap: wrap;
       -webkit-flex-wrap: wrap;
@@ -2377,7 +2431,7 @@ ul.icons {
         #footer .content section:first-child {
           width: 100%;
           padding-right: 0; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 480px) {
     #footer {
       padding: 3rem 0 1rem 0 ; }
       #footer .content section {
@@ -2463,7 +2517,7 @@ body {
       padding-left: 1.25rem; }
     #header > nav > a:last-child {
       padding-right: 1.25rem; }
-    @media screen and (max-width: 736px) {
+    @media screen and (max-width: 480px) {
       #header > nav > a {
         padding: 0 0.5rem; }
         #header > nav > a + a[href="#menu"]:last-child {
@@ -2472,7 +2526,7 @@ body {
         #header > nav > a:last-child {
           padding-right: 1rem; } }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 480px) {
   body {
     padding-top: 44px; }
 
@@ -2657,7 +2711,7 @@ body {
     margin-bottom: 0;
     position: relative;
     z-index: 2; }
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 480px) {
     #heading {
       padding: 2rem; } }
 
@@ -2682,7 +2736,7 @@ aside .content {
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
   margin-bottom: 2rem;
   padding: 3rem; }
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 480px) {
     main .content {
       padding: 2rem; } }
   @media screen and (max-width: 480px) {
@@ -2820,11 +2874,11 @@ aside .content {
       font-size: 1.25rem; }
     #menu .close:hover {
       color: #ffffff; }
-    @media screen and (max-width: 736px) {
+    @media screen and (max-width: 480px) {
       #menu .close {
         height: 4rem;
         line-height: 4rem; } }
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 480px) {
     #menu {
       padding: 2.5rem 1.75rem; } }
 
