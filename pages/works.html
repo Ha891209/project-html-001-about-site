@@ -10,19 +10,19 @@
 
 <body>
     <header id="header">
-        <a class="logo" href="/pages/index.html">
+        <a class="logo" href="index.html">
             Munkáim
         </a>
 
-        <nav id="mainMenu" class="links">
-            <a href="/pages/index.html">Home</a> |
-            <a href="/pages/works.html">Works</a> |
-            <a href="/pages/gallery.html">Gallery</a> |
-            <a href="/pages/about.html">About</a>
+        <nav id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="works.html">Works</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
         </nav>
 
     </header>
-  
+
     <main>
         <section id="banner">
             <div class="inner">
@@ -36,48 +36,43 @@
             <video autoplay loop muted playsinline src="/banner/Count_Animation.mp4"></video>
         </section>
 
-        <section class="wrapper">
-            <div class="Basic 1">
-                <h1>Hamburger rendelés</h1>
-                <div class="Leírás">
+        <section id="works-section">
+            <article>
+                <img src="/images/Hamburgers.JPG" alt="Hamburgers">
+                <div class="right-content">
+                    <h4>Hamburger rendelés</h4>
                     <p>Újratervezés program keretein belül egy nagyon alap oldalt tettem össze elsőként. Elérhető
                         <a href="https://ha891209.github.io/">
-                            itt.
+                            <strong>itt.</strong>
                         </a>
                     </p>
-                    <div class="Kép">
-                        <img src="/images/Hamburgers.JPG">
-                    </div>
+            </article>
+            <article>
+                <img src="/images/hiprogrammer.jpg" alt="Hi programmer">
+                <div class="right-content">
+                    <h4>Hi programmer</h4>
+                    <p>Szintén a program keretein belül a következő gyakorló oldalt csináltam.
+                        Elérhető
+                        <a href="https://github.com/Ha891209/hiprogrammer">
+                            <strong>itt.</strong>
+                        </a>
+                    </p>
+            </article>
+            <article>
+                <img src="/images/Html5.JPG" alt="HTML5">
+                <div class="right-content">
+                    <h4>HTML5</h4>
+                    <p>Junior Frontend-es képzésen egy HTML5 tanfolyamról készítettünk weboldalt.
+                        Elérhető
+                        <a href="https://github.com/Ha891209/html5">
+                            <strong>itt.</strong>
+                        </a>
+                    </p>
                 </div>
-                <section class="wrapper">
-                    <div class="Basic 2">
-                        <h1>Hi programmer</h1>
-                        <div class="Leírás">
-                            <p>Szintén a program keretein belül a következő gyakorló oldalt csináltam.
-                                Elérhető
-                                <a href="https://github.com/Ha891209/hiprogrammer">
-                                    itt.
-                                </a>
-                            </p>
-                            <div class="Kép">
-                                <img src="/images/hiprogrammer.jpg">
-                            </div>
-                        </div>
-                        <section class="wrapper">
-                            <div class="Basic 3">
-                                <h1>HTML5</h1>
-                                <div class="Leírás">
-                                    <p>Junior Frontend-es képzésen egy HTML5 tanfolyamról készítettünk weboldalt.
-                                        Elérhető
-                                        <a href="https://github.com/Ha891209/html5">
-                                            itt.
-                                        </a>
-                                    </p>
-                                    <div class="Kép">
-                                        <img src="/images/Html5.JPG">
-                                    </div>
-                                </div>
+            </article>
+        </section>
     </main>
+
     <footer>
         <a href="#top">
             <button class="btn">Ugrás az oldal tetejére</button>
