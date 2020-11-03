@@ -24,12 +24,6 @@ section, summary, time, mark, audio, video {
 
 /* Index */
 
-h4 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-top: 2rem;
-}
-
 
 .introp {
   text-align: left;    
@@ -38,7 +32,7 @@ h4 {
 }
 
 .introp a{
-  text-align: center;
+  text-align: left;
   font-size: 4rem;
   margin-top: 2rem;
 
@@ -142,6 +136,7 @@ li {
   text-align: left;
   font-size: 1.3rem;
 }
+
 
 .about {
   display: block;    
@@ -925,7 +920,6 @@ ul.alt li {
     opacity: 0.6;
     position: absolute;
     top: 0;
-    webkit-linear-gradientidth: 100%;
     width: 100%;
     z-index: 1; }
   #banner.small {
@@ -1067,7 +1061,6 @@ footer {
 button {
   border-radius: 99em;
   font-size: 1rem;
-  background-color:#ce1b28);
+  background-color:#ce1b28;
   margin: 2rem;
-  padding: 1rem;
-}
+  padding: 1rem;}}
